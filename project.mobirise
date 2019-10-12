@@ -41,12 +41,12 @@
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/gdhdfhfghfddf.ico",
     "noImageResize": "",
-    "google-analytics": "",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": false,
-    "siteUrl": "",
+    "google-analytics": "<!-- Yandex.Metrika counter -->\n<script type=\"text/javascript\" >\n   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\n   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\n   (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\n\n   ym(55736062, \"init\", {\n        clickmap:true,\n        trackLinks:true,\n        accurateTrackBounce:true,\n        webvisor:true\n   });\n</script>\n<noscript><div><img src=\"https://mc.yandex.ru/watch/55736062\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n<!-- /Yandex.Metrika counter -->",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsSwitcher": true,
+    "siteUrl": "https://optumgeo5.github.io/",
     "sitemapSwitcherAuto": true,
-    "sitemapSwitcher": false,
+    "sitemapSwitcher": true,
     "modified": "2019-10-10T09:33:44.785Z",
     "": "on"
   },
@@ -784,7 +784,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": true,
+            "slides__autoplay": false,
             "slides__autoplayInterval": "5000",
             "slides__showBullets": true,
             "slides": [
@@ -843,7 +843,7 @@
                 "text": "в соответствии с&nbsp;СП 22.13330.2016 \"Основания зданий и сооружений\".",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
                 "overlayOpacity": "0.6",
-                "textTitle": "Геотехнический прогноз &nbsp;выполняется"
+                "textTitle": "Геотехнический прогноз<br>выполняется"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/4-1202x608.png",
@@ -918,7 +918,7 @@
                 "title": "Расчет оснований по деформациям",
                 "overlay": true,
                 "contentAlign": "left",
-                "text": "Для сооружений окружающей застройки, расположенных в расчетной зоне влияния нового строительства или реконструкции, выполняется расчет оснований по деформациям в соответствии с п.9.37 СП 22.<br>Если результаты этого расчета показывают, что степень влияния на объект окружающей застройки недопустима, то назначаются защитные мероприятия.<br>",
+                "text": "для сооружений окружающей застройки, расположенных в расчетной зоне влияния нового строительства или реконструкции, выполняется расчет оснований по деформациям в соответствии с п.9.37 СП 22.<br>Если результаты этого расчета показывают, что степень влияния на объект окружающей застройки недопустима, то назначаются защитные мероприятия.<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
                 "overlayColor": "#000000",
                 "overlayOpacity": "0.6",
