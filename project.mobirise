@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "GeoProg",
-    "currentPage": "index41.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,21 +43,23 @@
     "noImageResize": "",
     "google-analytics": "",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
+    "robotsSwitcher": false,
     "siteUrl": "",
-    "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on",
-    "modified": "2019-10-10T09:33:44.785Z"
+    "sitemapSwitcherAuto": true,
+    "sitemapSwitcher": false,
+    "modified": "2019-10-10T09:33:44.785Z",
+    "": "on"
   },
   "pages": {
-    "index41.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Геотехнический прогноз в Москве",
         "meta_descr": "Геотехнический прогноз (оценка) влияния строительства на окружающую застройку в Москве.\nгеотехнический прогноз, геотехника, геотехнические расчеты, оценка влияния строительства, зона влияния строительства, Plaxis, midas GTS, геотехническое обоснование строительства\n",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/dwg-2019-1-1014x733.png"
       },
       "components": [
         {
@@ -476,7 +478,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Логотип\" name=\"showLogo\">\n        <input type=\"range\" title=\"Размер\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Бренд\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Пункты меню\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Выбрать цвет\" name=\"itemsHoverColor\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Липкое меню\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Гамбургер-меню\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Прозрачное меню\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Цвет гамбургера\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"menuBgColor\" value=\"#767676\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                        <img src=\"@PROJECT_PATH@/assets/images/dwg-2019-1-1014x733.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">\n                        Геотехнический прогноз (оценка) влияния нового строительства или реконструкции&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-secondary\" href=\"index.html#header3-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Главная</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#slider1-1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        Геопрогноз</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#step3-9\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        Заказчику</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#pricing-tables1-h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        Стоимость</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#features18-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">О компании</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#contacts3-l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Контакты</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"index.html#form1-j\" data-app-placeholder=\"Введите Текст\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +7 (905) 959-20-41<br>k.00741@yandex.ru<br></a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Логотип\" name=\"showLogo\">\n        <input type=\"range\" title=\"Размер\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Бренд\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Пункты меню\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Выбрать цвет\" name=\"itemsHoverColor\" value=\"#ffffff\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Липкое меню\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Гамбургер-меню\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Прозрачное меню\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Цвет гамбургера\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"menuBgColor\" value=\"#767676\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                        <img src=\"@PROJECT_PATH@/assets/images/dwg-2019-1-1014x733.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">\n                        Геотехнический прогноз (оценка) влияния нового строительства или реконструкции&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-secondary\" href=\"index.html#header3-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Главная</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#slider1-1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        Геотехнический прогноз </a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#step3-9\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        Заказчику</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#pricing-tables1-h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        Стоимость</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#features18-c\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">О компании</a></li><li class=\"nav-item\"><a class=\"nav-link link text-secondary\" href=\"index.html#contacts3-l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">Контакты</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-white-outline\" href=\"index.html#form1-j\" data-app-placeholder=\"Введите Текст\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +7 (905) 959-20-41<br>k.00741@yandex.ru<br></a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rDApb7aFZt",
           "_anchor": "menu2-e",
           "_protectedParams": [],
@@ -803,7 +805,7 @@
                 "text": "заключается в обеспечении: \n<br>- безопасности нового строительства (или реконструкции); \n<br>- сохранности окружающей застройки.<br><br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
                 "overlayOpacity": "0.6",
-                "textTitle": ""
+                "textTitle": "Цель геотехнического прогноза&nbsp;"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/2-1202x609.png",
@@ -821,7 +823,8 @@
                 "contentAlign": "left",
                 "text": "- это комплекс работ расчетного и аналитического характера, целью которых является оценка влияния нового строительства или реконструкции на изменение напряженно-деформированного состояния оснований сооружений окружающей застройки.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
-                "overlayOpacity": "0.6"
+                "overlayOpacity": "0.6",
+                "textTitle": "Геотехнический прогноз&nbsp;"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/3-1202x608.png",
@@ -839,7 +842,8 @@
                 "contentAlign": "left",
                 "text": "в соответствии с&nbsp;СП 22.13330.2016 \"Основания зданий и сооружений\".",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
-                "overlayOpacity": "0.6"
+                "overlayOpacity": "0.6",
+                "textTitle": "Геотехнический прогноз &nbsp;выполняется"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/4-1202x608.png",
@@ -857,7 +861,8 @@
                 "contentAlign": "left",
                 "text": "геотехнического прогноза представляет собой упругопластический анализ напряженно-деформированного состояния технической системы \"существующая застройка - грунтовый массив - объект нового строительства\", производимый численными методами, как правило, методом конечных элементов.&nbsp;",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
-                "overlayOpacity": "0.6"
+                "overlayOpacity": "0.6",
+                "textTitle": "Расчетный блок"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/5-2-1203x608.png",
@@ -876,7 +881,8 @@
                 "text": "геотехнического прогноза представляет собой комплексный анализ результатов расчетов, в результате чего:<br>- определяется степень и допустимость влияния нового строительства на сооружения окружающей застройки;<br>-&nbsp;назначается необходимый объем мер защиты сооружений окружающей застройки.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
                 "overlayColor": "#000000",
-                "overlayOpacity": "0.6"
+                "overlayOpacity": "0.6",
+                "textTitle": "Аналитический блок"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/-2-1-2000x1204.png",
@@ -895,7 +901,8 @@
                 "text": "является расчетная зона влияния нового строительства или реконструкции.",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
                 "overlayColor": "#000000",
-                "overlayOpacity": "0.6"
+                "overlayOpacity": "0.6",
+                "textTitle": "Итогом геотехнического прогноза&nbsp;"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/2019-10-06-2750-1203x607.png",
@@ -914,7 +921,8 @@
                 "text": "Для сооружений окружающей застройки, расположенных в расчетной зоне влияния нового строительства или реконструкции, выполняется расчет оснований по деформациям в соответствии с п.9.37 СП 22.<br>Если результаты этого расчета показывают, что степень влияния на объект окружающей застройки недопустима, то назначаются защитные мероприятия.<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Введите Текст\" href=\"https://mobirise.com\">ДЛЯ MAC</a>",
                 "overlayColor": "#000000",
-                "overlayOpacity": "0.6"
+                "overlayOpacity": "0.6",
+                "textTitle": "Расчет оснований по деформациям"
               }
             ]
           }
